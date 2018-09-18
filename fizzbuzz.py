@@ -9,9 +9,11 @@ def FizzBuzz(number):
         print("NO FIZZYBUZZY")
 
 cont = True
+
 while cont == True:
-    num = int(input("Enter and integer: "))
+    num = int(input("Enter an integer or press 0 to exit: "))
     if num != 0:
         FizzBuzz(num)
     else:
+        print("EXITING")
         cont = False

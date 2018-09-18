@@ -29,4 +29,5 @@ while cont == True:
         cont = False
     elif option != 'y':
         print("Invalid Input, EXITING")
+        cont = False
     
